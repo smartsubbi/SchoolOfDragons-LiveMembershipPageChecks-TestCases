@@ -79,7 +79,7 @@ public class TestCase9
 		logger.log(LogStatus.INFO, membershipPageScreenshot);		
 		Thread.sleep(5000);		
 		MembershipPage membershipPage = PageFactory.initElements(driver, MembershipPage.class);	
-		membershipPage.verifyAllMembersipOptionsAndFeatures();		
+		membershipPage.verifyAllMembersipOptionsAndFeatures(logger);		
 		membershipPage.verifySelectPaymentMethodDBandPaymentForm(logger);	
 		BrowserFactory.closeBrowser();
 		logger.log(LogStatus.INFO, "Quitting the Browser Opened");		
