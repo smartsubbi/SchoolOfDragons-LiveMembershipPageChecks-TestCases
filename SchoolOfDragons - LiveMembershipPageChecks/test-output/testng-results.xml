@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Live Test Cases Suite" duration-ms="134656" started-at="2016-05-10T06:23:29Z" finished-at="2016-05-10T06:25:44Z">
+  <suite name="Live Test Cases Suite" duration-ms="675024" started-at="2016-05-10T08:50:34Z" finished-at="2016-05-10T09:01:49Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="134656" started-at="2016-05-10T06:23:29Z" finished-at="2016-05-10T06:25:44Z">
+    <test name="Live Tests" duration-ms="675024" started-at="2016-05-10T08:50:34Z" finished-at="2016-05-10T09:01:49Z">
       <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="setUp" is-config="true" duration-ms="1990" started-at="2016-05-10T11:53:29Z" finished-at="2016-05-10T11:53:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="setUp" is-config="true" duration-ms="1994" started-at="2016-05-10T14:20:34Z" finished-at="2016-05-10T14:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="ValidAuthorisedPlayerLogin" duration-ms="59644" started-at="2016-05-10T11:53:31Z" finished-at="2016-05-10T11:54:31Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="ValidAuthorisedPlayerLogin" duration-ms="602659" started-at="2016-05-10T14:20:36Z" finished-at="2016-05-10T14:30:38Z">
           <params>
             <param index="0">
               <value>
@@ -19,69 +19,25 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [$9.99] but found [$7.99
-$9.99]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [$9.99] but found [$7.99
-$9.99]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at Pages.MembershipPage.verifyMonthly(MembershipPage.java:346)
-	at Pages.MembershipPage.verifyAllMembersipOptionsAndFeatures(MembershipPage.java:582)
-	at com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9.ValidAuthorisedPlayerLogin(TestCase9.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="afterTest" is-config="true" duration-ms="589" started-at="2016-05-10T11:54:31Z" finished-at="2016-05-10T11:54:32Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-10T14:30:38Z" finished-at="2016-05-10T14:30:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase9.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase9.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="tearDown" is-config="true" duration-ms="991" started-at="2016-05-10T11:54:32Z" finished-at="2016-05-10T11:54:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="tearDown" is-config="true" duration-ms="253" started-at="2016-05-10T14:30:38Z" finished-at="2016-05-10T14:30:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="printReportPath" is-config="true" duration-ms="71437" started-at="2016-05-10T11:54:33Z" finished-at="2016-05-10T11:55:44Z">
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="printReportPath" is-config="true" duration-ms="70108" started-at="2016-05-10T14:30:39Z" finished-at="2016-05-10T14:31:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->

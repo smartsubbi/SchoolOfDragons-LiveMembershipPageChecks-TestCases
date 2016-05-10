@@ -9,7 +9,7 @@
 		<repository>
 			<id>git-smartsubbi</id>
 			<name>smartsubbi's Git based repo</name>
-			<url>https://github.com/smartsubbi/mvn-repo/tree/master/</url>
+			<url>https://github.com/smartsubbi/mvn-repo/raw/master/</url>
 		</repository>
 	</repositories>
 
@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>SODFrameWork</groupId>
 			<artifactId>SODFrameWork</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.2</version>
 		</dependency>
 	</dependencies>
 
@@ -67,8 +67,7 @@
 						<emailid>${emailid}</emailid>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>SchoolOfDragons - Live -
-							LiveMembershipPagesChecksTestCases - testNG.xml</suiteXmlFile>
+						<suiteXmlFile>SchoolOfDragons - Live - LiveMembershipPagesChecksTestCases - testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
