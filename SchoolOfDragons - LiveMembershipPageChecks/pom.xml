@@ -4,6 +4,16 @@
 	<groupId>com.SchoolOfDragon</groupId>
 	<artifactId>com.SchoolOfDragon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<repositories>
+		<repository>
+			<id>git-smartsubbi</id>
+			<name>smartsubbi's Git based repo</name>
+			<url>https://github.com/smartsubbi/mvn-repo/raw/master/</url>
+		</repository>
+	</repositories>
+	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -30,12 +40,10 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.40.2</version>
 		</dependency>
-			<dependency>
+	 <dependency>
 			<groupId>SODFrameWork</groupId>
 			<artifactId>SODFrameWork</artifactId>
-			<scope>system</scope>
-			<version>0.0.1</version>
-			<systemPath>D:/SODFrameWork/MyFrameWork.jar</systemPath>		
+			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 
