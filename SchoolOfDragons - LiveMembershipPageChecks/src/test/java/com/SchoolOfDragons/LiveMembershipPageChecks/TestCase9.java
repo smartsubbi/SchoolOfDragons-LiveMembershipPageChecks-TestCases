@@ -17,7 +17,6 @@ import Pages.AfterLoggedInPage;
 import Pages.CommonHeader;
 import Pages.LoginPage;
 import Pages.MembershipPage;
-import ReUse.SendMail;
 import Utility.CaptureScreenshot;
 
 public class TestCase9
@@ -32,7 +31,7 @@ public class TestCase9
 	public void setUp() throws Throwable
 	{		
 		report=ExtentManager.Instance();
-		driver = BrowserFactory.getBrowser("chrome");
+		driver = BrowserFactory.getBrowser("firefox");
 	}
 	
 	@Parameters(value="Category")
@@ -108,12 +107,13 @@ public class TestCase9
 	@AfterTest
 	public void printReportPath() throws Throwable
 	{
-		WebDriver driver = BrowserFactory.getBrowser("chrome");
+	//	WebDriver driver = BrowserFactory.getBrowser("chrome");
 		String emailReportPathToSend = ExtentManager.finalPath;	
 		System.out.println(testCase1Result); 		
-		String mailContent = "You can refer to the below report for the run result\n"+emailReportPathToSend;
-		SendMail.sendMailOnlyContent(driver, "School Of Dragons - Live - Membership Page Verification",mailContent);
-		BrowserFactory.closeBrowser();
+		String mailContent = "You can refer to the below report for the run result : "+emailReportPathToSend;
+		System.out.println(mailContent);
+		//SendMail.sendMailOnlyContent(driver, "School Of Dragons - Live - Membership Page Verification",mailContent);
+		//BrowserFactory.closeBrowser();
 	}
 
 }

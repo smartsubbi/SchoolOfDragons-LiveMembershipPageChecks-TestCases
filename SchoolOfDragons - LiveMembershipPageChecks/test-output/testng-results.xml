@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Live Test Cases Suite" duration-ms="675024" started-at="2016-05-10T08:50:34Z" finished-at="2016-05-10T09:01:49Z">
+  <suite name="Live Test Cases Suite" duration-ms="620529" started-at="2016-05-13T10:59:30Z" finished-at="2016-05-13T11:09:50Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="675024" started-at="2016-05-10T08:50:34Z" finished-at="2016-05-10T09:01:49Z">
+    <test name="Live Tests" duration-ms="620529" started-at="2016-05-13T10:59:30Z" finished-at="2016-05-13T11:09:50Z">
       <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="setUp" is-config="true" duration-ms="1994" started-at="2016-05-10T14:20:34Z" finished-at="2016-05-10T14:20:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="setUp" is-config="true" duration-ms="5215" started-at="2016-05-13T16:29:30Z" finished-at="2016-05-13T16:29:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="ValidAuthorisedPlayerLogin" duration-ms="602659" started-at="2016-05-10T14:20:36Z" finished-at="2016-05-10T14:30:38Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="ValidAuthorisedPlayerLogin" duration-ms="615065" started-at="2016-05-13T16:29:35Z" finished-at="2016-05-13T16:39:50Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-10T14:30:38Z" finished-at="2016-05-10T14:30:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="tearDown" is-config="true" duration-ms="232" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="tearDown" is-config="true" duration-ms="253" started-at="2016-05-10T14:30:38Z" finished-at="2016-05-10T14:30:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="printReportPath" is-config="true" duration-ms="70108" started-at="2016-05-10T14:30:39Z" finished-at="2016-05-10T14:31:49Z">
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="printReportPath" is-config="true" duration-ms="7" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->
