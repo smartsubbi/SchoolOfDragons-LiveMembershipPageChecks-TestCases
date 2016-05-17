@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Live Test Cases Suite">
+	<parameter name="Category" value="Live Test Cases" />
+	<test name="Live Tests">
+		<classes>
+			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase2" />
+			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase3" />	
+			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase4" />	
+			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase5" />			  	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

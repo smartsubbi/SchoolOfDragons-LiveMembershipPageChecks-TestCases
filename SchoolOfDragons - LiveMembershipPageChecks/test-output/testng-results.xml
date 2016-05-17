@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Live Test Cases Suite" duration-ms="620529" started-at="2016-05-13T10:59:30Z" finished-at="2016-05-13T11:09:50Z">
+  <suite name="Live Test Cases Suite" duration-ms="427484" started-at="2016-05-17T13:56:55Z" finished-at="2016-05-17T14:04:03Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="620529" started-at="2016-05-13T10:59:30Z" finished-at="2016-05-13T11:09:50Z">
-      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="setUp" is-config="true" duration-ms="5215" started-at="2016-05-13T16:29:30Z" finished-at="2016-05-13T16:29:35Z">
+    <test name="Live Tests" duration-ms="427484" started-at="2016-05-17T13:56:55Z" finished-at="2016-05-17T14:04:03Z">
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="setUp" is-config="true" duration-ms="4720" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="ValidAuthorisedPlayerLogin" duration-ms="615065" started-at="2016-05-13T16:29:35Z" finished-at="2016-05-13T16:39:50Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="ValidAuthorisedPlayerLogin" duration-ms="98112" started-at="2016-05-17T19:32:21Z" finished-at="2016-05-17T19:33:59Z">
           <params>
             <param index="0">
               <value>
@@ -22,26 +22,122 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="tearDown" is-config="true" duration-ms="232" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="tearDown" is-config="true" duration-ms="49" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:33:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:33:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase9.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase13.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@457e2f02]" name="printReportPath" is-config="true" duration-ms="7" started-at="2016-05-13T16:39:50Z" finished-at="2016-05-13T16:39:50Z">
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="setUp" is-config="true" duration-ms="6654" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="ValidAuthorisedPlayerLogin" duration-ms="99516" started-at="2016-05-17T19:28:53Z" finished-at="2016-05-17T19:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase11.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="tearDown" is-config="true" duration-ms="76" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="setUp" is-config="true" duration-ms="5023" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="ValidAuthorisedPlayerLogin" duration-ms="97834" started-at="2016-05-17T19:30:38Z" finished-at="2016-05-17T19:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="tearDown" is-config="true" duration-ms="55" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase12.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="setUp" is-config="true" duration-ms="8324" started-at="2016-05-17T19:26:55Z" finished-at="2016-05-17T19:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="ValidAuthorisedPlayerLogin" duration-ms="103039" started-at="2016-05-17T19:27:04Z" finished-at="2016-05-17T19:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase10.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="tearDown" is-config="true" duration-ms="252" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="printReportPath" is-config="true" duration-ms="3796" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:34:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->
-      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9 -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10 -->
     </test> <!-- Live Tests -->
   </suite> <!-- Live Test Cases Suite -->
 </testng-results>

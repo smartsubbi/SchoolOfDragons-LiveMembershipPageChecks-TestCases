@@ -5,7 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -25,7 +24,7 @@ public class TestCase9
 	ExtentReports report;
 	ExtentTest logger;		
 	String Category;
-	String testCase1Result = "No result";
+	static String testCase9Result = "No result";
 	
 	@BeforeClass
 	public void setUp() throws Throwable
@@ -38,7 +37,7 @@ public class TestCase9
 	@Test()
 	public void ValidAuthorisedPlayerLogin(String catg) throws Throwable
 	{
-		logger = report.startTest("Test Case 9: Live - Verify Membership page","This will verify membership page contents, Select a paymethod DB and payment method forms");		
+		logger = report.startTest("Test Case 9 : Live - Verify Membership page - Twelve Months Select a Payment Method DB and Visa form","This will verify Twelve Months membership Select a Payment DB and Twelve Months Visa Form contents");		
 		logger.log(LogStatus.INFO, "Browser is up and running");
 		String browserOpenedScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "Application"));
 		logger.log(LogStatus.INFO, browserOpenedScreenshot);		
@@ -77,9 +76,8 @@ public class TestCase9
 		String membershipPageScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver, "Application"));
 		logger.log(LogStatus.INFO, membershipPageScreenshot);		
 		Thread.sleep(5000);		
-		MembershipPage membershipPage = PageFactory.initElements(driver, MembershipPage.class);	
-		membershipPage.verifyAllMembersipOptionsAndFeatures(logger);		
-		membershipPage.verifySelectPaymentMethodDBandPaymentForm(logger);	
+		MembershipPage membershipPage = PageFactory.initElements(driver, MembershipPage.class);					
+		membershipPage.verifyTwelveMonthsSelectPaymentMethodDBandPaymentFormVisa(logger);	
 		BrowserFactory.closeBrowser();
 		logger.log(LogStatus.INFO, "Quitting the Browser Opened");		
 	}
@@ -91,8 +89,10 @@ public class TestCase9
 		{		
 			logger.log(LogStatus.FAIL, "<pre>" + result.getThrowable().getMessage() + "</pre>");
 			String failureScreenshot=logger.addScreenCapture(CaptureScreenshot.takeScreenshot(driver,result.getName()));			  
-			logger.log(LogStatus.FAIL, failureScreenshot);				
+			logger.log(LogStatus.FAIL, failureScreenshot);	
+			testCase9Result = "Fail";					
 		}		
+		testCase9Result = "Pass";
 	}
 	
 	@AfterClass
@@ -102,18 +102,5 @@ public class TestCase9
 		report.flush();	
 		BrowserFactory.closeBrowser();
 		report.close();				
-	}		
-	
-	@AfterTest
-	public void printReportPath() throws Throwable
-	{
-	//	WebDriver driver = BrowserFactory.getBrowser("chrome");
-		String emailReportPathToSend = ExtentManager.finalPath;	
-		System.out.println(testCase1Result); 		
-		String mailContent = "You can refer to the below report for the run result : "+emailReportPathToSend;
-		System.out.println(mailContent);
-		//SendMail.sendMailOnlyContent(driver, "School Of Dragons - Live - Membership Page Verification",mailContent);
-		//BrowserFactory.closeBrowser();
-	}
-
+	}	
 }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Live Test Cases Suite">
-	<parameter name="Category" value="Live Test Cases" />
-	<test name="Live Tests">
+<suite name="School Of Dragons - Live - Verify membership Page - Membership Options and Features Content">
+	<parameter name="Category" value="Verify membership Page - Membership Options and Features Content" />
+	<test name="Verify membership Page - Membership Options and Features Content">
 		<classes>
-			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9" />		  	
+			<class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase1" />				  	
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

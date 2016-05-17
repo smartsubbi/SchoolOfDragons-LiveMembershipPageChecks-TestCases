@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [School Of Dragons - Live - Verify membership Page - Membership Options and Features Content]">
+  <parameter name="Category" value="Verify membership Page - Membership Options and Features Content"/>
+  <test name="Verify membership Page - Membership Options and Features Content">
+    <classes>
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase1"/>
+    </classes>
+  </test> <!-- Verify membership Page - Membership Options and Features Content -->
+</suite> <!-- Failed suite [School Of Dragons - Live - Verify membership Page - Membership Options and Features Content] -->
