@@ -77,7 +77,7 @@
 						<emailid>${emailid}</emailid>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>SchoolOfDragons - Live - Select a Payment Method DB and MasterCard Form - testNG.xml</suiteXmlFile>
+						<suiteXmlFile>SchoolOfDragons - Live - Select a Payment Method DB and Visa Form - testNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
