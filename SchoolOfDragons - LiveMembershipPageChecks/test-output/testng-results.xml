@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Live Test Cases Suite" duration-ms="427484" started-at="2016-05-17T13:56:55Z" finished-at="2016-05-17T14:04:03Z">
+  <suite name="Live Test Cases Suite" duration-ms="455096" started-at="2016-05-19T10:02:56Z" finished-at="2016-05-19T10:10:31Z">
     <groups>
     </groups>
-    <test name="Live Tests" duration-ms="427484" started-at="2016-05-17T13:56:55Z" finished-at="2016-05-17T14:04:03Z">
-      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="setUp" is-config="true" duration-ms="4720" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:21Z">
+    <test name="Live Tests" duration-ms="455096" started-at="2016-05-19T10:02:56Z" finished-at="2016-05-19T10:10:31Z">
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@14acaea5]" name="setUp" is-config="true" duration-ms="5033" started-at="2016-05-19T15:38:43Z" finished-at="2016-05-19T15:38:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="ValidAuthorisedPlayerLogin" duration-ms="98112" started-at="2016-05-17T19:32:21Z" finished-at="2016-05-17T19:33:59Z">
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@14acaea5]" name="ValidAuthorisedPlayerLogin" duration-ms="97638" started-at="2016-05-19T15:38:48Z" finished-at="2016-05-19T15:40:26Z">
           <params>
             <param index="0">
               <value>
@@ -22,28 +22,240 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="tearDown" is-config="true" duration-ms="49" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:33:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:33:59Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@14acaea5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-19T15:40:26Z" finished-at="2016-05-19T15:40:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase13.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13@2b98378d] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase9.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@14acaea5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase13 -->
-      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="setUp" is-config="true" duration-ms="6654" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9@14acaea5]" name="tearDown" is-config="true" duration-ms="46" started-at="2016-05-19T15:40:26Z" finished-at="2016-05-19T15:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase9 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8@224edc67]" name="setUp" is-config="true" duration-ms="5579" started-at="2016-05-19T15:36:45Z" finished-at="2016-05-19T15:36:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="ValidAuthorisedPlayerLogin" duration-ms="99516" started-at="2016-05-17T19:28:53Z" finished-at="2016-05-17T19:30:33Z">
+        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8@224edc67]" name="ValidAuthorisedPlayerLogin" duration-ms="111192" started-at="2016-05-19T15:36:51Z" finished-at="2016-05-19T15:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c476629-c791-474d-bdf4-f48fd6662863
+*** Element info: {Using=xpath, value=.//*[@id='country']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c476629-c791-474d-bdf4-f48fd6662863
+*** Element info: {Using=xpath, value=.//*[@id='country']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at Pages.MembershipPage.verifyVisaForm(MembershipPage.java:530)
+	at Pages.MembershipPage.verifySelectPaymentMethodDBandPaymentFormGeneralVisa(MembershipPage.java:668)
+	at Pages.MembershipPage.verifySixMonthsSelectPaymentMethodDBandPaymentFormVisa(MembershipPage.java:906)
+	at com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8.ValidAuthorisedPlayerLogin(TestCase8.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SUBRAM~1/AppData/Local/Temp/anonymous5657409484136761302webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SUBRAM~1/AppData/Local/Temp/anonymous5657409484136761302webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8@224edc67]" name="afterTest" is-config="true" duration-ms="562" started-at="2016-05-19T15:38:42Z" finished-at="2016-05-19T15:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase8.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8@224edc67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8@224edc67]" name="tearDown" is-config="true" duration-ms="773" started-at="2016-05-19T15:38:43Z" finished-at="2016-05-19T15:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase8 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7@4c70fda8]" name="setUp" is-config="true" duration-ms="6047" started-at="2016-05-19T15:34:49Z" finished-at="2016-05-19T15:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7@4c70fda8]" name="ValidAuthorisedPlayerLogin" duration-ms="109061" started-at="2016-05-19T15:34:55Z" finished-at="2016-05-19T15:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Live Test Cases]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+Command duration or timeout: 15.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b1e744a1-e92d-4500-8e2e-264440c42d10
+*** Element info: {Using=xpath, value=.//*[@id='country']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+Command duration or timeout: 15.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b1e744a1-e92d-4500-8e2e-264440c42d10
+*** Element info: {Using=xpath, value=.//*[@id='country']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at Pages.MembershipPage.verifyVisaForm(MembershipPage.java:530)
+	at Pages.MembershipPage.verifySelectPaymentMethodDBandPaymentFormGeneralVisa(MembershipPage.java:668)
+	at Pages.MembershipPage.verifyThreeMonthsSelectPaymentMethodDBandPaymentFormVisa(MembershipPage.java:864)
+	at com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7.ValidAuthorisedPlayerLogin(TestCase7.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='country']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'KAI-DT136', ip: '172.20.11.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SUBRAM~1/AppData/Local/Temp/anonymous619875099029203553webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SUBRAM~1/AppData/Local/Temp/anonymous619875099029203553webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorisedPlayerLogin -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7@4c70fda8]" name="afterTest" is-config="true" duration-ms="567" started-at="2016-05-19T15:36:44Z" finished-at="2016-05-19T15:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=FAILURE method=TestCase7.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7@4c70fda8]" name="tearDown" is-config="true" duration-ms="775" started-at="2016-05-19T15:36:44Z" finished-at="2016-05-19T15:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase7 -->
+      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad]" name="setUp" is-config="true" duration-ms="11330" started-at="2016-05-19T15:32:56Z" finished-at="2016-05-19T15:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad]" name="ValidAuthorisedPlayerLogin" duration-ms="100881" started-at="2016-05-19T15:33:07Z" finished-at="2016-05-19T15:34:48Z">
           <params>
             <param index="0">
               <value>
@@ -54,90 +266,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:33Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-19T15:34:48Z" finished-at="2016-05-19T15:34:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase11.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822] output={null}]]]>
+                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase6.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11@cb5822]" name="tearDown" is-config="true" duration-ms="76" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad]" name="tearDown" is-config="true" duration-ms="723" started-at="2016-05-19T15:34:48Z" finished-at="2016-05-19T15:34:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase11 -->
-      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="setUp" is-config="true" duration-ms="5023" started-at="2016-05-17T19:30:33Z" finished-at="2016-05-17T19:30:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="ValidAuthorisedPlayerLogin" duration-ms="97834" started-at="2016-05-17T19:30:38Z" finished-at="2016-05-17T19:32:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Live Test Cases]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="tearDown" is-config="true" duration-ms="55" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-17T19:32:16Z" finished-at="2016-05-17T19:32:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase12.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12@4b9e13df] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase12 -->
-      <class name="com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="setUp" is-config="true" duration-ms="8324" started-at="2016-05-17T19:26:55Z" finished-at="2016-05-17T19:27:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="ValidAuthorisedPlayerLogin" duration-ms="103039" started-at="2016-05-17T19:27:04Z" finished-at="2016-05-17T19:28:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Live Test Cases]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAuthorisedPlayerLogin -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidAuthorisedPlayerLogin status=SUCCESS method=TestCase10.ValidAuthorisedPlayerLogin(java.lang.String)[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="tearDown" is-config="true" duration-ms="252" started-at="2016-05-17T19:28:47Z" finished-at="2016-05-17T19:28:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10@18be83e4]" name="printReportPath" is-config="true" duration-ms="3796" started-at="2016-05-17T19:33:59Z" finished-at="2016-05-17T19:34:03Z">
+        <test-method status="PASS" signature="printReportPath()[pri:0, instance:com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6@26be92ad]" name="printReportPath" is-config="true" duration-ms="4806" started-at="2016-05-19T15:40:26Z" finished-at="2016-05-19T15:40:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printReportPath -->
-      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase10 -->
+      </class> <!-- com.SchoolOfDragons.LiveMembershipPageChecks.TestCase6 -->
     </test> <!-- Live Tests -->
   </suite> <!-- Live Test Cases Suite -->
 </testng-results>
