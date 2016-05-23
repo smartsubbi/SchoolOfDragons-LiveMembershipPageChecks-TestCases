@@ -95,6 +95,10 @@ public class TestCase1
 			testCase1Result = "Fail";
 		}	
 		testCase1Result = "Pass";
+		System.out.println("Monthly Price : "+MembershipPage.oneMonthExpectedPrice);
+		System.out.println("Three Month Price : "+MembershipPage.threeMonthsExpectedPrice);                        
+        System.out.println("Six Month Price : "+MembershipPage.sixMonthsExpectedPrice);                        
+        System.out.println("Twelve Month Price : "+MembershipPage.twelveMonthsExpectedPrice); 
 	}
 	
 	@AfterClass
@@ -109,23 +113,20 @@ public class TestCase1
 	@AfterTest
 	public void printReportPath() throws Throwable
 	{	
+		System.out.println("Monthly Price : "+MembershipPage.oneMonthExpectedPrice);
+		System.out.println("Three Month Price : "+MembershipPage.threeMonthsExpectedPrice);                        
+        System.out.println("Six Month Price : "+MembershipPage.sixMonthsExpectedPrice);                        
+        System.out.println("Twelve Month Price : "+MembershipPage.twelveMonthsExpectedPrice); 
 		String emailReportPathToSend = ExtentManager.finalPath1;
 		String mailContent ="You can refer to the below report path for the run result : \n"+emailReportPathToSend+
 				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
 				"\n\n ========================================================================================================"+
-				"\n\n Below are the membership details verified "+
-				"\n ========================================================================================================"+
-				"\n\n Monthly Price : "+MembershipPage.oneMonthExpectedPrice+
-		                "\n\n Monthly Old Price : "+MembershipPage.oneMonthExpectedOldPrice+
-		                "\n\n Three Month Price : "+MembershipPage.threeMonthsExpectedPrice+
-		                "\n\n Three Month Old Price : "+MembershipPage.threeMonthsExpectedOldPrice+	
-                                "\n\n Three Month Saving Price : "+MembershipPage.threeMonthsExpectedSavings+
-                                "\n\n Six Month Price : "+MembershipPage.sixMonthsExpectedPrice+
-                                "\n\n Six Month Old Price : "+MembershipPage.sixMonthsExpectedOldPrice+
-                                "\n\n Six Month Saving Price : "+MembershipPage.sixMonthsExpectedSavings+
-                                "\n\n Twelve Month Price : "+MembershipPage.twelveMonthsExpectedPrice+
-                                "\n\n Twelve Month Old Price : "+MembershipPage.twelveMonthsExpectedOldPrice+
-                                "\n\n Twelve Month Saving Price : "+MembershipPage.twelveMonthsExpectedSavings;	     
+				"\n                            Below are the Membership Details Verified                                      "+
+				"\n =========================================================================================================="+
+				"\n\n Monthly Price : "+MembershipPage.oneMonthExpectedPrice+		                
+	            "\n\n Three Month Price : "+MembershipPage.threeMonthsExpectedPrice+                        
+                "\n\n Six Month Price : "+MembershipPage.sixMonthsExpectedPrice+                        
+                "\n\n Twelve Month Price : "+MembershipPage.twelveMonthsExpectedPrice;                        	     
 		String mailSubject = "School Of Dragons - Live - Verify Membership Page - Membership Options Contents and Membership Features Section";
 		SendMailSSL.sendMail(mailContent, mailSubject);	
 	}
