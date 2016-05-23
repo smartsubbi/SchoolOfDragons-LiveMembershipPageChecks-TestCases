@@ -110,7 +110,18 @@ public class TestCase6
 	public void printReportPath() throws Throwable
 	{
 		String emailReportPathToSend = ExtentManager.finalPath1;
-		String mailContent ="You can refer to the below report path for the run result : \n"+emailReportPathToSend+
+		System.out.println("You can refer to the below report path for the run result : \n"+emailReportPathToSend+
+				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
+				"\n\n ========================================================================================================"+
+				"\n\n Test Case Results as below "+
+				"\n ========================================================================================================"+
+				"\n\n Test Case 6 : Live - Verify Membership page - First Membership Option ("+MembershipPage.oneMonthExpectedPrice+") Verify Select Payment DB and Visa Form : "+TestCase6.testCase6Result+
+		        "\n\n Test Case 7 : Live - Verify Membership page - Second Membership option ("+MembershipPage.threeMonthsExpectedPrice+") Verify Select Payment DB and Visa Form : "+TestCase7.testCase7Result+
+		        "\n\n Test Case 8 : Live - Verify Membership page - Third Membership option ("+MembershipPage.sixMonthsExpectedPrice+") Verify Select Payment DB and Visa Form : "+TestCase8.testCase8Result+
+		        "\n\n Test Case 9 : Live - Verify Membership page - Fourth Membership option ("+MembershipPage.twelveMonthsExpectedPrice+") Verify Select Payment DB and Visa Form : "+TestCase9.testCase9Result);
+		
+		String mailContent =
+				"You can refer to the below report path for the run result : \n"+emailReportPathToSend+
 				"\n\n Refer to the file with date as : "+ExtentManager.fileDate+
 				"\n\n ========================================================================================================"+
 				"\n\n Test Case Results as below "+
